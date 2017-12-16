@@ -1,0 +1,45 @@
+
+/* Importing font from file */
+@font-face { font-family: Anamolous; src: url('Rns_Bobo_Dylan.otf'); } 
+
+ /* Sets the background image to fill the whole screen */
+ body, html {
+	height: 100%;
+}
+.bg { 
+    background-image: url(../images/abstract1.jpg);
+	height: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+ /* The center button on the home page properties */
+ .centerContent{
+
+    height: 200px;
+    width: 400px;
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -200px;
+
+ }
+/* styles for the main name */
+#mainName{
+ font-family: Anamolous, sans-serif;
+ font-size: 80px;
+ color: black;
+ text-align-last: center;
+}
+/* Slant button styles */
+#homeButton{
+    color: white !important;
+    display: inline-block;
+}
+
+.bttn-slant.bttn-warning:before{
+    background: black !important;
+}
