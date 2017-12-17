@@ -1,48 +1,67 @@
-
 /* Importing font from file */
-@font-face { font-family: Anamolous; src: url('Rns_Bobo_Dylan.otf'); } 
-@font-face { font-family: BtnTxt; src: url('ROLIRE__.TTF'); } 
 
-
- /* Sets the background image to fill the whole screen */
- body, html {
-	height: 100%;
+@font-face {
+    font-family: Anamolous;
+    src: url('Rns_Bobo_Dylan.otf');
 }
-.bg { 
+
+@font-face {
+    font-family: BtnTxt;
+    src: url('ROLIRE__.TTF');
+}
+
+
+/* Sets the background image to fill the whole screen */
+
+body,
+html {
+    height: 100%;
+}
+
+.bg {
     background-image: url(../images/abstract1.jpg);
-	height: 100%;
+    height: 100%;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-  }
+}
 
- /* The center button on the home page properties */
- .centerContent{
 
+/* The center button on the home page properties */
+
+.centerContent {
     height: 700px;
     width: 700px;
-
     position: fixed;
     top: 50%;
     left: 50%;
     margin-top: -100px;
     margin-left: -340px;
-
- }
-/* styles for the main name */
-#mainName{
- font-family: Anamolous, sans-serif;
- font-size: 9vw;
- color: black;
- text-align-last: center;
 }
+
+
+/* styles for the main name */
+
+#mainName {
+    font-family: BtnTxt, sans-serif;
+    font-size: 9vw;
+    font-weight: 600;
+    color: black;
+    text-align-last: center;
+}
+
+
 /* Slant button styles */
-#homeButton{
+
+#homeButton {
     color: white !important;
-    display: inline-block;
     font-family: BtnTxt, sans-serif;
 }
 
-.bttn-slant.bttn-warning:before{
+.bttn-slant.bttn-warning:focus {
+    outline-style: none;
+}
+
+.bttn-slant.bttn-warning:before {
     background: black !important;
 }
