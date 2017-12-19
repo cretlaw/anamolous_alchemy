@@ -9,6 +9,10 @@
     font-family: BtnTxt;
     src: url('ROLIRE__.TTF');
 }
+@font-face {
+    font-family: Artsy;
+    src: url('art nouveau by Marta van Eck.otf');
+}
 
 
 /* Sets the background image to fill the whole screen */
@@ -19,7 +23,7 @@ html {
 }
 
 .bg {
-    background-image: url(../images/abstract1.jpg);
+    background-image: url(../images/abstract2.jpg);
     height: 100%;
     background-position: center center;
     background-repeat: no-repeat;
@@ -43,10 +47,9 @@ html {
 /* styles for the main name */
 
 #mainName {
-    font-family: BtnTxt, sans-serif;
+    font-family: Artsy, sans-serif;
     font-size: 9vw;
-    font-weight: 600;
-    color: black;
+    color: rgb(172, 155, 63);
     text-align-last: center;
 }
 
@@ -54,14 +57,16 @@ html {
 /* Slant button styles */
 
 #homeButton {
-    color: white !important;
+    color: rgb(172, 155, 63) !important;
     font-family: BtnTxt, sans-serif;
 }
 
 .bttn-slant.bttn-warning:focus {
     outline-style: none;
+    background-color: rgb(172, 155, 63);
 }
 
 .bttn-slant.bttn-warning:before {
     background: black !important;
 }
+
