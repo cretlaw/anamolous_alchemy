@@ -63,7 +63,7 @@ html {
 
 .bttn-slant.bttn-warning:focus {
     outline-style: none;
-    background-color: rgb(172, 155, 63);
+    
 }
 
 .bttn-slant.bttn-warning:before {
