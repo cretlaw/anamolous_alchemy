@@ -16,13 +16,15 @@ html {
 body {
   background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/abstract3.jpg);
   background-position: center center;
+
   background-size: cover;
-  margin: 0 0 5%;
+  margin-bottom: -12vmin;
   /* bottom has to be the same as footer height */
 }
 
 footer {
   /* just for demo */
+
   background-color: black;
   border-top: 2px solid rgb(172, 155, 63);
   text-align: center;
@@ -33,7 +35,7 @@ footer {
   position: absolute;
   left: 0;
   right: 0;
-  bottom: 0;
+  
   height: 12vmin;
 }
 
@@ -191,11 +193,12 @@ footer {
   text-align: center;
   font-size: calc(6vmin + 10px);
   font-weight: 700;
-  cursor: pointer;
+  /* cursor: pointer; */
   color: #fff;
 }
 
 .nav__list-item {
+ 
   position: relative;
   display: inline-block;
   -webkit-transition-delay: 0.8s;
@@ -211,7 +214,7 @@ footer {
 }
 
 .nav__list-item:before {
-  content: "";
+  /* content: "";
   position: absolute;
   background: #000000;
   width: 20px;
@@ -221,7 +224,7 @@ footer {
   transform: translate(0%, 0%);
   -webkit-transition: all .3s ease;
   transition: all .3s ease;
-  z-index: -1;
+  z-index: -1; */
 }
 
 .nav__list-item:hover:before {
@@ -230,6 +233,7 @@ footer {
 
 body.nav-active .menu-icon__line {
   background-color: white;
+
   -webkit-transform: translateX(0px) rotate(-45deg);
   transform: translateX(0px) rotate(-45deg);
 }
@@ -243,10 +247,10 @@ body.nav-active .menu-icon__line-right {
   -webkit-transform: translateX(-2px) rotate(45deg);
   transform: translateX(-2px) rotate(45deg);
 }
-
+/* 
 body.nav-active .nav {
   visibility: visible;
-}
+} */
 
 body.nav-active .nav:before,
 body.nav-active .nav:after {
