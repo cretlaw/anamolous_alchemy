@@ -193,8 +193,13 @@ footer {
   text-align: center;
   font-size: calc(6vmin + 10px);
   font-weight: 700;
-  /* cursor: pointer; */
   color: #fff;
+  cursor: pointer;
+  pointer-events: none;
+}
+
+.nav-active .nav__content {
+  pointer-events: auto;
 }
 
 .nav__list-item {
