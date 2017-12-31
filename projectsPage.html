@@ -34,24 +34,39 @@
     </div>
 
     <div class="nav">
-            <div class="nav__content">
-                <ul class="nav__list">
-                    <a href="aboutPage.html"><li class="nav__list-item glitch is-glitching" data-text="ABOUT">ABOUT</li></a>
-                    <br><a href="projectsPage.html"><li class="nav__list-item glitch is-glitching" data-text="PROJECTS">PROJECTS</li></a>
-                    <br><a href="shopPage.html"><li class="nav__list-item glitch is-glitching" data-text="SHOP">SHOP</li></a>
-                    <br><a href="inspirationsPage.html"><li class="nav__list-item glitch is-glitching" data-text="INSPIRATIONS">INSPIRATIONS</li></a>
-                    <br><a href="eventsPage.html"><li class="nav__list-item glitch is-glitching" data-text="EVENTS">EVENTS </li></a>
-                </ul>
-            </div>
+        <div class="nav__content">
+            <ul class="nav__list">
+                <a href="aboutPage.html">
+                    <li class="nav__list-item glitch is-glitching" data-text="ABOUT">ABOUT</li>
+                </a>
+                <br>
+                <a href="projectsPage.html">
+                    <li class="nav__list-item glitch is-glitching" data-text="PROJECTS">PROJECTS</li>
+                </a>
+                <br>
+                <a href="shopPage.html">
+                    <li class="nav__list-item glitch is-glitching" data-text="SHOP">SHOP</li>
+                </a>
+                <br>
+                <a href="inspirationsPage.html">
+                    <li class="nav__list-item glitch is-glitching" data-text="INSPIRATIONS">INSPIRATIONS</li>
+                </a>
+                <br>
+                <a href="eventsPage.html">
+                    <li class="nav__list-item glitch is-glitching" data-text="EVENTS">EVENTS </li>
+                </a>
+            </ul>
         </div>
-   
+    </div>
 
-        <div class="site-content">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xs-12">
+
+    <div class="site-content">
+        <div class="container-fluid">
+            <div class="row">
+                
+                <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12" id="cardColumn">
                     <div class="card">
-                        <img src="http://via.placeholder.com/350x150" alt="" class="card-img-top">
+                        <img src="images/projects/1.jpg" alt="" class="img-responsive img-top">
                         <div class="card-body">
                             <h4 class="card-title">A Card Title</h4>
                             <p class="card-text">Some card text that appears below the card title.</p>
@@ -60,47 +75,56 @@
                         </div>
                     </div>
                 </div>
-                </div>
+
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12 pull-right" id="cardColumn">
+                        <div class="card">
+                            <img src="images/projects/4.jpg" alt="" class="img-responsive img-top">
+                            <div class="card-body">
+                                <h4 class="card-title">A Card Title</h4>
+                                <p class="card-text">Some card text that appears below the card title.</p>
+                                <a href="#" class="card-link">Action Link 1</a>
+                                <a href="#" class="card-link">Action Link 2</a>
+                            </div>
+                        </div>
+                    </div>
+                
             </div>
-
-
         </div>
+    </div>
 
-        <br>
-        <br>
-        <br>
-        <footer style="bottom: 0;">
+    
+    <footer>
 
-            <div class="social-media-buttons">
+        <div class="social-media-buttons">
 
 
-                <div class="social-media-button facebook">
-                    <a href="https://www.facebook.com/natasha.n.bellas">
-                        <i class="fa fa-facebook-official" aria-hidden="true"></i>
-                    </a>
-                </div>
-
-                <div class="social-media-button instagram">
-                    <a href="https://www.instagram.com/trompeloeil16/">
-                        <i class="fa fa-instagram" aria-hidden="true"></i>
-                    </a>
-                </div>
-
-                <div class="social-media-button envelope">
-                    <a onClick="emailPopulate()" id="email">
-                        <i class="fa fa-envelope" aria-hidden="true"></i>
-                    </a>
-                </div>
-
-                <div class="social-media-button phone">
-                    <a onClick="phonePopulate()">
-                        <i class="fa fa-phone" aria-hidden="true"></i>
-                    </a>
-                </div>
+            <div class="social-media-button facebook">
+                <a href="https://www.facebook.com/natasha.n.bellas">
+                    <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                </a>
             </div>
-        </footer>
 
-   
+            <div class="social-media-button instagram">
+                <a href="https://www.instagram.com/trompeloeil16/">
+                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                </a>
+            </div>
+
+            <div class="social-media-button envelope">
+                <a onClick="emailPopulate()" id="email">
+                    <i class="fa fa-envelope" aria-hidden="true"></i>
+                </a>
+            </div>
+
+            <div class="social-media-button phone">
+                <a onClick="phonePopulate()">
+                    <i class="fa fa-phone" aria-hidden="true"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+
 
 
     <!-- Including Bootstrap JS (with its jQuery dependency) so that dynamic components work -->
