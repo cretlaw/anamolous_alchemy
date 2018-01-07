@@ -101,7 +101,6 @@ footer {
 
   box-sizing: border-box;
   color: rgb(172, 155, 63);
-  text-align: justify;
   padding-top: 10%;
   margin-left: 13%;
   margin-right: 13%;
@@ -112,6 +111,8 @@ footer {
   flex-wrap: wrap;
   -webkit-align-content: center;
   align-content: center;
+  text-align: left justify;
+
 }
 
 .paragraphs {
